@@ -18,7 +18,7 @@ public class GoogleTestAutomation {
 		driver = new ChromeDriver(options);
 		driver.get("https://www.google.com/webhp");
 		driver.manage().window().maximize();
-		driver.findElement(By.name("q")).sendKeys("sandeep");;
+		driver.findElement(By.name("q")).sendKeys("hello");;
 		driver.findElement(By.name("btnK")).submit();
 		//driver.close();
 		//driver.quit();
